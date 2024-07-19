@@ -18,7 +18,7 @@ module.exports = [
     config: {
       origin: [
         "http://localhost:3000",
-        "https://brunabrasil-portfolio.vercel.app/",
+        "https://brunabrasil-portfolio.vercel.app",
       ], // Substitua pelo seu domínio Next.js
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
       headers: ["Content-Type", "Authorization"],
