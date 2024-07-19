@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_with_images",
+  "info": {
+    "singularName": "category-with-image",
+    "pluralName": "category-with-images",
+    "displayName": "CategoryWithImages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "categoryImageName": {
+      "type": "string"
+    }
+  }
+}
